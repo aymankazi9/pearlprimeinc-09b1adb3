@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-border text-center text-muted-foreground">
-          <p>© 2025 TechConsultPro. All rights reserved.</p>
+          <p>© 2025 pearlprimeinc. All rights reserved.</p>
         </div>
       </div>
     </footer>

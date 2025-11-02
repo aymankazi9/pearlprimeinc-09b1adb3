@@ -30,12 +30,12 @@ const PaymentForm = () => {
       return;
     }
 
-    // For PayPal integration, redirect to PayPal.me
-    window.open("https://www.paypal.com/paypalme/yourbusiness", "_blank");
+    // For Venmo integration, redirect to Venmo
+    window.open("https://venmo.com/primer1442", "_blank");
     
     toast({
       title: "Redirecting to Payment",
-      description: "You will be redirected to PayPal to complete your booking.",
+      description: "You will be redirected to Venmo to complete your booking.",
     });
   };
 
@@ -135,11 +135,11 @@ const PaymentForm = () => {
 
                 <div className="space-y-4 pt-4">
                   <Button type="submit" variant="hero" className="w-full text-lg py-6" size="lg">
-                    Submit & Pay with PayPal
+                    Submit & Pay with Venmo
                   </Button>
                   
                   <p className="text-sm text-muted-foreground text-center">
-                    Secure payment processing powered by PayPal
+                    Secure payment processing powered by Venmo
                   </p>
                 </div>
               </form>
